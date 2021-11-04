@@ -26,7 +26,7 @@ app.listen(port, () => {
 
 function sendToDB(body){
     const con = mysql.createConnection({
-        host: "arm-mysql.privdb.armvcn.oraclevcn.com",
+        host: "<YOUR_DB_FQDN>",
         user: "db_user",
         password: "Oracle@123",
         database: "student"
